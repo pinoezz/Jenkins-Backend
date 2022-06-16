@@ -1,7 +1,7 @@
-def secret = 'rahman'
-def server = 'jenkins@103.214.113.82'
+def secret = 'pinoezz'
+def server = 'jenkins@103.171.85.155'
 def dir = 'wayshub-backend'
-def branch = 'main'
+def branch = 'master'
 
 pipeline{
 	agent any

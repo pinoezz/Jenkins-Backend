@@ -3,7 +3,7 @@ services:
  backend:
    build: .
    container_name: be
-   image: arahmane/wayshub-be:stable
+   image: pino/wayshub-be:stable
    stdin_open: true
    ports:
-    - 5555:5000
+    - 5050:5000
